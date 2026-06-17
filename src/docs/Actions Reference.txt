@@ -1,0 +1,36 @@
+Action: UISubmit, Id: 1, descriptiveName UISubmit negativeDescriptiveName: UISubmit - positiveDescriptiveName: UISubmit + Mapping Type Button KeyCode: Return Positive
+Action: UICancel, Id: 2, descriptiveName UICancel negativeDescriptiveName: UICancel - positiveDescriptiveName: UICancel + Mapping Type Button KeyCode: Escape Positive
+Action: UIHorizontal, Id: 3, descriptiveName UIHorizontal negativeDescriptiveName: UILeft positiveDescriptiveName: UIRight Mapping Type Axis KeyCode: A Negative KeyCode: LeftArrow Negative KeyCode: D Positive KeyCode: RightArrow Positive
+Action: CameraHorizontal, Id: 46, descriptiveName CameraHorizontal negativeDescriptiveName: CameraLeft positiveDescriptiveName: CameraRight Mapping Type Axis KeyCode: A Negative KeyCode: LeftArrow Negative KeyCode: D Positive KeyCode: RightArrow Positive
+Action: CameraVertical, Id: 47, descriptiveName CameraVertical negativeDescriptiveName: CameraDown positiveDescriptiveName: CameraUp Mapping Type Axis KeyCode: W Positive KeyCode: UpArrow Positive KeyCode: S Negative KeyCode: DownArrow Negative
+Action: UIVertical, Id: 4, descriptiveName UIVertical negativeDescriptiveName: UIDown positiveDescriptiveName: UIUp Mapping Type Axis KeyCode: W Positive KeyCode: UpArrow Positive KeyCode: S Negative KeyCode: DownArrow Negative
+Action: CameraZoom, Id: 30, descriptiveName CameraZoom negativeDescriptiveName: CameraZoomOut positiveDescriptiveName: CameraZoomIn Mapping Type Axis
+Action: SetMouseInput, Id: 6, descriptiveName SetMouseInput negativeDescriptiveName: SetMouseInput - positiveDescriptiveName: SetMouseInput + Mapping Type Button
+Action: PageRight, Id: 8, descriptiveName PageRight negativeDescriptiveName: PageRight - positiveDescriptiveName: PageRight + Mapping Type Button KeyCode: E Positive
+Action: PageLeft, Id: 9, descriptiveName PageLeft negativeDescriptiveName: PageLeft - positiveDescriptiveName: PageLeft + Mapping Type Button KeyCode: Q Positive
+Action: UpgradeBaseItem, Id: 10, descriptiveName UpgradeBaseItem negativeDescriptiveName: UpgradeBaseItem - positiveDescriptiveName: UpgradeBaseItem + Mapping Type Button
+Action: SellWeapon, Id: 14, descriptiveName SellWeapon negativeDescriptiveName: SellWeapon - positiveDescriptiveName: SellWeapon + Mapping Type Button
+Action: StartGame, Id: 15, descriptiveName StartGame negativeDescriptiveName: StartGame - positiveDescriptiveName: StartGame + Mapping Type Button
+Action: Menu, Id: 21, descriptiveName Menu negativeDescriptiveName: Menu - positiveDescriptiveName: Menu + Mapping Type Button KeyCode: Escape Positive
+Action: SelectLeftPath, Id: 22, descriptiveName SelectLeftPath negativeDescriptiveName: SelectLeftPath - positiveDescriptiveName: SelectLeftPath + Mapping Type Button
+Action: SelectRightPath, Id: 23, descriptiveName SelectRightPath negativeDescriptiveName: SelectRightPath - positiveDescriptiveName: SelectRightPath + Mapping Type Button
+Action: UseSpecialPower1, Id: 24, descriptiveName UseSpecialPower1 negativeDescriptiveName: UseSpecialPower1 - positiveDescriptiveName: UseSpecialPower1 + Mapping Type Button KeyCode: Alpha3 Positive
+Action: UseSpecialPower2, Id: 25, descriptiveName UseSpecialPower2 negativeDescriptiveName: UseSpecialPower2 - positiveDescriptiveName: UseSpecialPower2 + Mapping Type Button KeyCode: Alpha4 Positive
+Action: UseSpecialPower3, Id: 26, descriptiveName UseSpecialPower3 negativeDescriptiveName: UseSpecialPower3 - positiveDescriptiveName: UseSpecialPower3 + Mapping Type Button KeyCode: Alpha5 Positive
+Action: OpenDaySummay, Id: 27, descriptiveName OpenDaySummay negativeDescriptiveName: OpenDaySummay - positiveDescriptiveName: OpenDaySummay + Mapping Type Button
+Action: UseAirStrike, Id: 31, descriptiveName UseAirStrike negativeDescriptiveName: UseAirStrike - positiveDescriptiveName: UseAirStrike + Mapping Type Button KeyCode: Alpha1 Positive
+Action: UseHeal, Id: 32, descriptiveName UseHeal negativeDescriptiveName: UseHeal - positiveDescriptiveName: UseHeal + Mapping Type Button KeyCode: Alpha2 Positive
+Action: UseRegroup, Id: 33, descriptiveName UseRegroup negativeDescriptiveName: UseRegroup - positiveDescriptiveName: UseRegroup + Mapping Type Button
+Action: UseLooter, Id: 34, descriptiveName UseLooter negativeDescriptiveName: UseLooter - positiveDescriptiveName: UseLooter + Mapping Type Button
+Action: SelectSpecialPower, Id: 35, descriptiveName SelectSpecialPower negativeDescriptiveName: SelectSpecialPower - positiveDescriptiveName: SelectSpecialPower + Mapping Type Button
+Action: ReturnToBus, Id: 39, descriptiveName ReturnToBus negativeDescriptiveName: ReturnToBus - positiveDescriptiveName: ReturnToBus + Mapping Type Button
+Action: AttackPosition, Id: 40, descriptiveName AttackPosition negativeDescriptiveName: AttackPosition - positiveDescriptiveName: AttackPosition + Mapping Type Button KeyCode: LeftControl Positive
+Action: TempPause, Id: 41, descriptiveName TempPause negativeDescriptiveName: TempPause - positiveDescriptiveName: TempPause + Mapping Type Button KeyCode: Space Positive
+Action: SelectCharacterPanel, Id: 42, descriptiveName SelectCharacterPanel negativeDescriptiveName: SelectCharacterPanel - positiveDescriptiveName: SelectCharacterPanel + Mapping Type Button
+Action: SelectItemPanel, Id: 44, descriptiveName SelectItemPanel negativeDescriptiveName: SelectItemPanel - positiveDescriptiveName: SelectItemPanel + Mapping Type Button
+Action: SelectPowerPanel, Id: 43, descriptiveName SelectPowerPanel negativeDescriptiveName: SelectPowerPanel - positiveDescriptiveName: SelectPowerPanel + Mapping Type Button
+Action: ShowHighScorePanel, Id: 45, descriptiveName ShowHighScorePanel negativeDescriptiveName: ShowHighScorePanel - positiveDescriptiveName: ShowHighScorePanel + Mapping Type Button
+Action: SelectPreviousPower, Id: 48, descriptiveName SelectPreviousPower negativeDescriptiveName: SelectPreviousPower - positiveDescriptiveName: SelectPreviousPower + Mapping Type Button
+Action: SelectNextPower, Id: 49, descriptiveName SelectNextPower negativeDescriptiveName: SelectNextPower - positiveDescriptiveName: SelectNextPower + Mapping Type Button
+Action: UseSelectedSpecialPower, Id: 50, descriptiveName UseSelectedSpecialPower negativeDescriptiveName: UseSelectedSpecialPower - positiveDescriptiveName: UseSelectedSpecialPower + Mapping Type Button
+Action: GameplaycharacterSelect, Id: 51, descriptiveName GameplaycharacterSelect negativeDescriptiveName: GameplaycharacterSelect - positiveDescriptiveName: GameplaycharacterSelect + Mapping Type Button
