@@ -24,13 +24,14 @@ factoring in damage per hit, bullet count, and fire rate.
  
 Adjusts the minimum and maximum size of the [b]floating damage numbers[/b] that appear when hitting enemies.
 Useful for reducing visual clutter or making numbers more prominent.
-[font=Courier New]+----------------+---------+---------------------------------------------------------------+
-| Config Key     | Default | Description                                                   |
-|================+=========+===============================================================|
-| DamageMinScale |         | Minimum scale multiplier for numbers.  The game's default is  |
-|----------------+---------+---------------------------------------------------------------|
-| DamageMaxScale |         | Maximum scale multiplier for numbers. The game's default is   |
-+----------------+---------+---------------------------------------------------------------+
+[font=Courier New]
++-------------------+---------+---------------------------------------------------------------+
+| Config Key     | Default | Description                                                      |
+|================+=========+==========-=======================================================|
+| DamageMinScale |  .4     | Minimum scale multiplier for numbers.  The game's default is .9  |
+|----------------+---------+------------------------------------------------------------------|
+| DamageMaxScale |  .4     | Maximum scale multiplier for numbers. The game's default is 1.2  |
++----------------+---------+------------------------------------------------------------------+
 [/font]
  
 [b][size=3]Daily Summary - Show Mission Resource Gain[/size][/b] 
@@ -42,11 +43,12 @@ Note that any daily summaries before this mod was installed will still show the 
 [b][size=3]Instant Sell[/size][/b] 
  
 [b]Middle-click[/b] (Mouse2) a weapon in the base's invetory to instantly sell it - no confirmation dialog required. The hotkey is configurable.
-[font=Courier New]+----------------+---------+---------------------------+
-| Config Key     | Default | Description               |
-|================+=========+===========================|
-| InstantSellKey |         | Hotkey to instantly sell. |
-+----------------+---------+---------------------------+
+[font=Courier New]
++--------------------+---------+---------------------------+
+| Config Key     | Default | Description                   |
+|================+=========+===============================|
+| InstantSellKey | Middle Mouse  Hotkey to instantly sell. |
++--------------------+---------+---------------------------+
 [/font]
  
 [b][size=3]Inventory Sort[/size][/b] 
@@ -73,7 +75,8 @@ Allows remapping of all in-game keyboard shortcuts through the config file. Chan
 The config uses the game's defaults.
  
 [b]Default bindings:[/b]
-[font=Courier New]+------------------+--------------+
+[font=Courier New]
++------------------+--------------+
 | Action           | Default Key  |
 |==================+==============|
 | ReturnToBus      | Q            |
