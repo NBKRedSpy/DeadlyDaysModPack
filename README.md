@@ -134,3 +134,10 @@ If a feature is disabled, the mod code for that feature will not run at all, so 
 impact from disabled features. 
 
 Other than the Enable settings, changes to the config file are applied **immediately** — you do not need to restart the game.
+
+## Support
+If you enjoy my mods and want to buy me a coffee, check out my [Ko-Fi](https://ko-fi.com/nbkredspy71915) page.
+Thanks!
+
+## Source Code
+The mod's source can be found at https://github.com/NBKRedSpy/DeadlyDaysModPack.

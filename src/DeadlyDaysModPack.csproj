@@ -8,7 +8,7 @@
 	</PropertyGroup>
 	<PropertyGroup>
 	<AssemblyCopyright>Copyright ©  2026</AssemblyCopyright>
-	<AssemblyVersion>1.0.0.1</AssemblyVersion>
+	<AssemblyVersion>1.0.0</AssemblyVersion>
 	<FileVersion>$(AssemblyVersion)</FileVersion>
 	</PropertyGroup>
 	<PropertyGroup>
