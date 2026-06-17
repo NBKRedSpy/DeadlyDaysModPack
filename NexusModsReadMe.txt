@@ -1,10 +1,9 @@
 [b][size=5]Deadly Days Mod Pack[/size][/b] 
  
-A quality-of-life BepInEx mod for the game [url=https://store.steampowered.com/app/1003580/Deadly_Days/]Deadly Days[/url] that bundles several independent improvements into a single configurable package.
+A quality-of-life BepInEx mod for the game [url=https://store.steampowered.com/app/740080/Deadly_Days/]Deadly Days[/url] that bundles several independent improvements into a single configurable package.
 Requires BepInEx, a popular modding framework for Unity games.
  
 The install instructions can be found in the [font=Courier New]Installation[/font] section below.
-<hr />
  
 [b][size=4]Features[/size][/b] 
  
@@ -112,7 +111,6 @@ The config uses the game's defaults.
 | CameraDown       | S            |
 +------------------+--------------+
 [/font]
-<hr />
  
 [b][size=4]Requirements[/size][/b] 
 [list]
@@ -136,12 +134,11 @@ After extraction the folder should contain a [font=Courier New]BepInEx[/font] di
 [*]
 Confirm BepInEx is working by checking that [font=Courier New]BepInEx/LogOutput.log[/font] was created.
 [/list]
-<hr />
  
 [b][size=4]Installing the Mod[/size][/b] 
 [list=1]
 [*]
-Download the latest [font=Courier New]DeadlyDaysModPack.dll[/font] from the [url=../../releases]Releases[/url] page.
+Download the latest [font=Courier New]DeadlyDaysModPack.zip[/font] Files tab.
 [*]
 Extract the [font=Courier New]DeadlyDaysModPack.zip[/font] into:
 [code]
@@ -152,7 +149,6 @@ The zip file already includes the mod's folder.  If the zip was extracted correc
 [*]
 Launch the game. The mod will load automatically.
 [/list]
-<hr />
  
 [b][size=4]Configuration[/size][/b] 
  

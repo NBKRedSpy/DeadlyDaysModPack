@@ -1,6 +1,6 @@
 # Deadly Days Mod Pack
 
-A quality-of-life BepInEx mod for the game [Deadly Days](https://store.steampowered.com/app/1003580/Deadly_Days/) that bundles several independent improvements into a single configurable package.
+A quality-of-life BepInEx mod for the game [Deadly Days](https://store.steampowered.com/app/740080/Deadly_Days/) that bundles several independent improvements into a single configurable package.
 Requires BepInEx, a popular modding framework for Unity games.
 
 The install instructions can be found in the [Installation](#installing-the-mod) section below.
