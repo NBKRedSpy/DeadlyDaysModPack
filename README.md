@@ -24,10 +24,10 @@ factoring in damage per hit, bullet count, and fire rate.
 Adjusts the minimum and maximum size of the **floating damage numbers** that appear when hitting enemies. 
 Useful for reducing visual clutter or making numbers more prominent.
 
-| Config Key     | Default | Description                            |
-|----------------|---------|----------------------------------------|
-| DamageMinScale | `0.4`   | Minimum scale multiplier for numbers.  The game's default is `0.9` |
-| DamageMaxScale | `0.4`   | Maximum scale multiplier for numbers. The game's default is `1.2` |
+| Config Key     | Default | Description                                                      |
+|----------------|---------|------------------------------------------------------------------|
+| DamageMinScale | 0.4     | Minimum scale multiplier for numbers.  The game's default is 0.9 |
+| DamageMaxScale | 0.4     | Maximum scale multiplier for numbers. The game's default is 1.2  |
 
 ### Daily Summary - Show Mission Resource Gain
 Changes the daily summary for food, parts, and tools to show the amount gained from the mission, not the total amount at the end of the day.
@@ -39,14 +39,16 @@ Note that any daily summaries before this mod was installed will still show the 
 
 | Config Key     | Default     | Description              |
 |----------------|-------------|--------------------------|
-| InstantSellKey | `Mouse2`    | Hotkey to instantly sell.|
+| InstantSellKey | Mouse2      | Hotkey to instantly sell.|
 
 ### Inventory Sort
 
 When opening the weapon inventory panel, weapons are automatically sorted by:
-1. Repaired status (repaired weapons first)
+1. Name (alphabetical)
 2. Level (highest first)
-3. Name (alphabetical)
+3. Repaired status (repaired weapons first)
+
+Please leave a comment if you would prefer an alternate sort order to be available.
 
 ### Return to Bus Key
 Adds a hotkey to the "Return to Bus" button when in the mission.  This function is available on the controller, 
@@ -106,7 +108,9 @@ The config uses the game's defaults.
 
 ## Installing the Mod
 
-1. Download the latest `DeadlyDaysModPack.dll` from the [Releases](../../releases) page.
+1. Download the latest `DeadlyDaysModPack.zip`
+   * On github, download from the releases link.
+   * On NexusMods, download from the Files tab.
 
 2. Extract the `DeadlyDaysModPack.zip` into:
    ```
@@ -141,3 +145,6 @@ Thanks!
 
 ## Source Code
 The mod's source can be found at https://github.com/NBKRedSpy/DeadlyDaysModPack.
+
+# Change Log
+* 1.1.0 - Changed Sort to Name, level, broken.  

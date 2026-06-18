@@ -7,36 +7,19 @@ using System.Threading.Tasks;
 
 namespace DeadlyDaysModPack.InventorySort
 {
-    [HarmonyPatch(typeof(WeaponInventoryPanel), nameof(WeaponInventoryPanel.OpenPanelForCharacter))]
-    internal static class WeaponInventoryPanel_OpenPanelForCharacter__Patch
+    [HarmonyPatch(typeof(InventoryWeapon), nameof(InventoryWeapon.OrderedWeapons))]
+    internal static class InventoryWeapon_OrderedWeapons__Patch
     {
         public static bool Prepare() => Plugin.ModConfig.EnableInventorySort.Value;
 
-        public static bool Prefix(WeaponInventoryPanel __instance, CharacterPortrait character, bool forceRefresh = true)
+        public static bool Prefix(IEnumerable<InventoryWeapon> items, ref IEnumerable<InventoryWeapon> __result)
         {
-            //COPY WARNING - This is a full copy of the original method.  Since the game is finished and 
-            //  it is unlikely to be modded by others, it should be safe to not bother with a more complex
-            //  transpiler patch.
 
-            __instance.selectingCharacterBehaviour = character.CharacterReference;
-            if (!__instance.IsExpanded || forceRefresh)
-            {
-                //Debug
-                //IEquipable[] items = inventory.EquipablesInInventory.Where((IEquipable t) => !t.IsEquipped).ToArray();
-                IEquipable[] items = __instance.inventory.EquipablesInInventory.Where((IEquipable t) => !t.IsEquipped)
-                    .OrderByDescending(x => x is InventoryWeapon ? ((InventoryWeapon)x).BuildInformation.IsRepaired : false)
-                    .ThenByDescending(x => x is InventoryWeapon ? ((InventoryWeapon)x).BuildInformation.Level : 0)
-                    .ThenBy(x => x.Name)
-                    .ToArray();
-                __instance.GeneratePagesData(items);
-                if (__instance.pageIndex > __instance.pages.Count - 1)
-                {
-                    __instance.pageIndex = __instance.pages.Count - 1;
-                    __instance.itemIndex = __instance.collums * __instance.maxRows;
-                }
-                __instance.ribbonObject.SetActive(value: true);
-                __instance.DisplayCurrentPage();
-            }
+            __result = items
+                    .OrderBy(x => x.Name)
+                    .ThenByDescending(x => x.BuildInformation.Level)
+                    .ThenByDescending(x => x.BuildInformation.IsRepaired)
+                    .ToList();
 
             return false;
         }

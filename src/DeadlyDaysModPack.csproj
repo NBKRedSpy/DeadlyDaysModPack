@@ -15,7 +15,7 @@
 		<!-- Plugin metadata — single source of truth for PluginInfo generation -->
 		<PluginGuid>com.nbk_redspy.deadlydaysmodpack</PluginGuid>
 		<PluginName>Deadly Days Mod Pack</PluginName>
-		<PluginVersion>1.0.0</PluginVersion>
+		<PluginVersion>1.1.0</PluginVersion>
 	</PropertyGroup>
 	<PropertyGroup>
 		<GAME_NAME>Deadly Days</GAME_NAME>
