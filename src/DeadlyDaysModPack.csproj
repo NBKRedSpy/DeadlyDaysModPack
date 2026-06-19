@@ -2,24 +2,21 @@
 	<PropertyGroup>
 		<TargetFramework>net48</TargetFramework>
 		<OutputType>Library</OutputType>
-		<!--<GenerateAssemblyInfo>false</GenerateAssemblyInfo>-->
 		<!-- Exclude the pre-build generated folder from SDK globbing -->
 		<DefaultItemExcludes>$(DefaultItemExcludes);Generated\**</DefaultItemExcludes>
 	</PropertyGroup>
 	<PropertyGroup>
 	<AssemblyCopyright>Copyright ©  2026</AssemblyCopyright>
-	<AssemblyVersion>1.0.0</AssemblyVersion>
+	<AssemblyVersion>1.2.0</AssemblyVersion>
 	<FileVersion>$(AssemblyVersion)</FileVersion>
 	</PropertyGroup>
 	<PropertyGroup>
 		<!-- Plugin metadata — single source of truth for PluginInfo generation -->
 		<PluginGuid>com.nbk_redspy.deadlydaysmodpack</PluginGuid>
 		<PluginName>Deadly Days Mod Pack</PluginName>
-		<PluginVersion>1.1.0</PluginVersion>
 	</PropertyGroup>
 	<PropertyGroup>
 		<GAME_NAME>Deadly Days</GAME_NAME>
-
 		<GAME_PATH Condition="!Exists('$(GAME_PATH)')">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App $(GAME_STEAM_ID)', 'InstallLocation', null, RegistryView.Registry64, RegistryView.Registry32))</GAME_PATH>
 		<_SteamLibraryPath>$([MSBuild]::GetRegistryValueFromView('HKEY_CURRENT_USER\SOFTWARE\Valve\Steam', 'SteamPath', null, RegistryView.Registry32))</_SteamLibraryPath>
 		<GAME_PATH Condition="!Exists('$(GAME_PATH)') AND '$(_SteamLibraryPath)' != ''">$(_SteamLibraryPath)\steamapps\common\$(GAME_NAME)</GAME_PATH>
@@ -60,6 +57,9 @@
 		<Reference Include="System.Data.DataSetExtensions" />
 		<Reference Include="Microsoft.CSharp" />
 		<Reference Include="System.Net.Http" />
+		<Reference Include="UnityEngine.ParticleSystemModule">
+		  <HintPath>$(ManagedPath)\UnityEngine.ParticleSystemModule.dll</HintPath>
+		</Reference>
 
 	</ItemGroup>
 

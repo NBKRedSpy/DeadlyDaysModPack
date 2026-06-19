@@ -61,6 +61,17 @@ When opening the weapon inventory panel, weapons are automatically sorted by:
  
 Please leave a comment if you would prefer an alternate sort order to be available.
  
+[b][size=3]Vehicle Sparkle Speed[/size][/b] 
+ 
+Increases the sparkle animation speed on searchable vehicles so they are easier to spot.  This [i]only[/i] affects vehicles.
+This is included as a QoL since even in the vanilla game, the user can pause and search the map for every car that has not been looted.
+[font=Courier New]+---------------------+---------+------------------------------------------------------------+
+| Config Key          | Default | Description                                                |
+|=====================+=========+============================================================|
+| VehicleSparkleSpeed | 5.0     | Sparkle speed for searchable vehicles.  Game defaults to 1 |
++---------------------+---------+------------------------------------------------------------+
+[/font]
+ 
 [b][size=3]Return to Bus Key[/size][/b] 
  
 Adds a hotkey to the "Return to Bus" button when in the mission.  This function is available on the controller,
@@ -114,6 +125,11 @@ The config uses the game's defaults.
 | CameraDown       | S            |
 +------------------+--------------+
 [/font]
+ 
+Each action in the config also has an alt binding to be able to bind an action twice.
+For example, [font=Courier New]ReturnToBus[/font] and [font=Courier New]ReturnToBusAlt[/font].
+ 
+[b]Mouse Note:[/b] Unfortunately mouse buttons cannot currently be bound due to how the game handles the mouse input.
 <hr />
  
 [b][size=4]Requirements[/size][/b] 
@@ -185,6 +201,14 @@ Thanks!
 The mod's source can be found at [url=https://github.com/NBKRedSpy/DeadlyDaysModPack]https://github.com/NBKRedSpy/DeadlyDaysModPack[/url].
  
 [b][size=5]Change Log[/size][/b] 
+ 
+[b][size=4]1.2.0[/size][/b] 
 [list]
-[*]1.1.0 - Changed Sort to Name, level, broken.
+[*]Added Vehicle Sparkle Speed for searchable vehicles.
+[*]Added alt key to bind an action to more than one key.
+[/list]
+ 
+[b][size=4]1.1.0[/size][/b] 
+[list]
+[*]Changed Sort to Name, level, is broken.
 [/list]

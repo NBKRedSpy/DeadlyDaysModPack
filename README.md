@@ -50,6 +50,14 @@ When opening the weapon inventory panel, weapons are automatically sorted by:
 
 Please leave a comment if you would prefer an alternate sort order to be available.
 
+### Vehicle Sparkle Speed
+Increases the sparkle animation speed on searchable vehicles so they are easier to spot.  This *only* affects vehicles.
+This is included as a QoL since even in the vanilla game, the user can pause and search the map for every car that has not been looted.
+
+| Config Key    | Default | Description                                                       |
+|---------------|---------|-------------------------------------------------------------------|
+| VehicleSparkleSpeed | 5.0     | Sparkle speed for searchable vehicles.  Game defaults to 1|
+
 ### Return to Bus Key
 Adds a hotkey to the "Return to Bus" button when in the mission.  This function is available on the controller, 
 but not on the keyboard by default. 
@@ -84,6 +92,11 @@ The config uses the game's defaults.
 | CameraRight     | D            |
 | CameraUp        | W            |
 | CameraDown      | S            |
+
+Each action in the config also has an alt binding to be able to bind an action twice.
+For example, `ReturnToBus` and `ReturnToBusAlt`.
+
+**Mouse Note:** Unfortunately mouse buttons cannot currently be bound due to how the game handles the mouse input.
 
 ---
 
@@ -147,4 +160,9 @@ Thanks!
 The mod's source can be found at https://github.com/NBKRedSpy/DeadlyDaysModPack.
 
 # Change Log
-* 1.1.0 - Changed Sort to Name, level, broken.  
+##  1.2.0
+ * Added Vehicle Sparkle Speed for searchable vehicles.
+ * Added alt key to bind an action to more than one key.
+ 
+## 1.1.0
+* Changed Sort to Name, level, is broken.  
